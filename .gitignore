@@ -1,3 +1,6 @@
+# REF: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -104,6 +107,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+envfile-local
 env/
 venv/
 ENV/
@@ -127,3 +131,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Common
+Makefile-local
+**/settings-local.py
+**/.DS_Store
